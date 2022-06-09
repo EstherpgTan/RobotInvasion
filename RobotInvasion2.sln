@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotInvasion2", "RobotInvasion2\RobotInvasion2.csproj", "{0CD64D6E-2C30-4E6B-BA24-D13567792F13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CD64D6E-2C30-4E6B-BA24-D13567792F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD64D6E-2C30-4E6B-BA24-D13567792F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD64D6E-2C30-4E6B-BA24-D13567792F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD64D6E-2C30-4E6B-BA24-D13567792F13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2458BEA9-CF6E-46BB-AEEF-C5E33C60DA08}
+	EndGlobalSection
+EndGlobal

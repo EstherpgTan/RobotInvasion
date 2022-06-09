@@ -1,11 +1,17 @@
+﻿using Microsoft.EntityFrameworkCore;
+using RobotInvasion2.Services;
+using RobotInvasion2.Model;
 
-WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
-builder.Logging.AddConfiguration();
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
 builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContext<LocationContext>(options => options.UseInMemoryDatabase("LocalDB"));
 
 builder.Services.AddSingleton<HttpClient>();
 builder.Services.AddSingleton<LocationService>();
@@ -26,3 +32,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
