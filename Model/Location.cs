@@ -4,12 +4,11 @@ namespace RobotInvasion2.Model
 {
 	public class Location
 	{
-		public long Id { get; set; }
-		public string Name { get; set; }
-		public double Latitude { get; set; }
-		public double Longitude { get; set; }
-		
-	 
-	}
-}
+		public string displayName { get; set; }
+		//public string type { get; set; }
+		//public double latitude { get; set; }
+		//public double longitude { get; set; }
+		}
+    }
+
 
